@@ -5,7 +5,9 @@
   <%= link_to("Logout", logout_path, method: :delete) %>
    <% if current_user.admin? %>
      <%= link_to("Admin Dashboard", admin_path) %>
-<% else %>
-  <% redirect_to(signup_path) %>
+   <% end %>
+ <% else %>
+   <p class="login_alert">OOOOOOOhhhhhh. you need to log innnnnnnn.... yeaaaaa.........</p>
+   <%= link_to("Login", login_path)%>
+   <%= link_to("Signup", signup_path)%>
   <% end %>
-<% end %>
