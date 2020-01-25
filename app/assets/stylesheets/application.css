@@ -6,3 +6,8 @@
   background-size: cover;
 }
 
+.alert {
+	background-color: red;
+	font-size: 30px;
+}
+
