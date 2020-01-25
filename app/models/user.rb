@@ -1,7 +1,8 @@
 class User < ApplicationRecord
-end
 
-  has_secure_password  
+  has_secure_password
+  has_many :grades
+  belongs_to :course  
   
   validates :email, presence: true, uniqueness: true
 
