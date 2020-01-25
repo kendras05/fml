@@ -9,5 +9,7 @@
 .alert {
 	background-color: red;
 	font-size: 30px;
+	max-width: 390px;
+	max-height: 300px;
 }
 
