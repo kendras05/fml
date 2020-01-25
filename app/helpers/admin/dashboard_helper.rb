@@ -1,5 +1,3 @@
-class Admin::DashboardController < AdminBaseController
-
-
+module Admin::DashboardHelper
 end
 
